@@ -29,9 +29,9 @@ NSLog(@"the array is:%@",array);
 
 ---
 ##Attention#
-######ModalAlert must be invoked in the main threan of a viewcontroller, for example#
+**ModalAlert must be invoked in the main threan of a viewcontroller, for example**
 
-It maybe work badly as a zombie like this:
+*It maybe work badly as a zombie like this:*
 
 ```Obj-c
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -40,7 +40,7 @@ It maybe work badly as a zombie like this:
 }
 ```
 
-**It should do like this:**
+*It should do like this:*
 
 ```Obj-c
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
