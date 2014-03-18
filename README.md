@@ -29,7 +29,7 @@ NSLog(@"the array is:%@",array);
 
 ---
 ##Attention#
-****ModalAlert must be invoked in the main threan of a viewcontroller, for example****
+######ModalAlert must be invoked in the main threan of a viewcontroller, for example#
 
 It maybe work badly as a zombie like this:
 
